@@ -1,0 +1,52 @@
+.control-room {
+  background: #020617;
+  color: white;
+  padding: 20px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.lane-video {
+  background: #0f172a;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.video-box {
+  height: 150px;
+  background: black;
+  border: 2px solid #22c55e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signal-timer {
+  background: #052e16;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.graph-card {
+  background: #020617;
+  border: 1px solid #22d3ee;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.lane-status {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
